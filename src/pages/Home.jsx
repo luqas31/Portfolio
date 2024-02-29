@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
+
 export function Home() {
 	return (
 		<div>
@@ -9,7 +10,7 @@ export function Home() {
 					I am a Web Development student <span>&lt;/&gt;</span>
 				</h2>
 				<div className='projects-button-container'>
-					<NavLink className='projects-button'>Projects →</NavLink>
+					<NavLink className='projects-button'>Projects &gt;</NavLink>
 				</div>
 			</div>
 		</div>

@@ -58,6 +58,7 @@ h2 {
 	border-radius: 999px;
 	padding: 1rem;
 	width: 100%;
+	font-weight: 800;
 }
 
 @keyframes blink {
@@ -72,5 +73,5 @@ h2 {
 }
 
 .home-container h2 span {
-	animation: blink 1s step-end infinite;
+	animation: blink 1.5s step-end infinite;
 }
