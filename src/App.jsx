@@ -1,22 +1,14 @@
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
 	return (
 		<div className='app'>
-			<header>
-				<nav>
-					<Link to='/'>Home</Link>
-					<li>Projects</li>
-					<li>About me</li>
-					<li>Contact me</li>
-				</nav>
-			</header>
-			<body>
-				<div className='outlet'>
-					<Outlet />
-				</div>
-			</body>
+			<Header />
+			<div className='outlet'>
+				<Outlet />
+			</div>
 		</div>
 	);
 }
