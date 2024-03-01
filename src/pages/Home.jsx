@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { getData } from '../services/api';
 import { useEffect, useState } from 'react';
+import Socials from '../components/Socials';
 import './Home.css';
 
 export function Home() {
@@ -31,6 +32,7 @@ export function Home() {
 					<NavLink className='projects-button'>Projects &gt; </NavLink>
 				</div>
 			</div>
+			<Socials />
 		</div>
 	);
 }
