@@ -6,7 +6,7 @@ import { ErrorPage } from './pages/ErrorPage';
 
 export const router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/Portfolio/',
 		element: <App />,
 		children: [
 			{
