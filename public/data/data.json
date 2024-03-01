@@ -3,8 +3,8 @@
 		{
 			"id": 1,
 			"title": "Hello, I'm Lucas Souza",
-			"subtitle": "I am a Web Development student",
-			"span": "</>"
+			"subtitle": "< I am a Web Development student />",
+			"span": "."
 		}
 	]
 }

@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { getData } from '../services/api';
 import { useEffect, useState } from 'react';
+import './Home.css';
 
 export function Home() {
 	const [homeData, setHomeData] = useState();

@@ -1,0 +1,20 @@
+.header-container {
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	display: flex;
+	width: 550px;
+	height: 4rem;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+    font-weight: 800;
+}
+
+li {
+    list-style: none;
+    font-weight: 300;
+	color: #222222;
+}
