@@ -44,5 +44,5 @@ h2 {
 }
 
 .home-container h2 span {
-	animation: blink 1.5s step-end infinite;
+	animation: blink 1s step-end infinite;
 }
