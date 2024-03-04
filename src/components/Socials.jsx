@@ -15,7 +15,7 @@ function Socials() {
 				<a href='https://www.instagram.com/lucasplss' className='instagram' target='_blank'>
 					<FontAwesomeIcon icon={faInstagram} size='2x' />
 				</a>
-				<a href='https://t.me/lucasplss' className='threads' target='_blank'>
+				<a href='https://www.threads.net/@lucasplss' className='threads' target='_blank'>
 					<FontAwesomeIcon icon={faThreads} size='2x' />
 				</a>
 			</div>
