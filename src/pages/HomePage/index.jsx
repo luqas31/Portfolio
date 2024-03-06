@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { getData } from '../services/api';
+import { getData } from '../../services/api';
 import { useEffect, useState } from 'react';
 import Socials from '../components/Socials';
 import './Home.css';
