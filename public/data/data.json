@@ -6,5 +6,32 @@
 			"subtitle": "< I am a Web Development student />",
 			"span": "_"
 		}
+	],
+
+	"projectsPage": [
+		{
+			"id": 1,
+			"title": "Here you can find some of my",
+			"span": "Projects"
+		}
+	],
+
+	"ifNoProjects": [
+		{
+			"id": 1,
+			"title": "No projects yet",
+			"subtitle": "Looking forward to adding some!",
+			"span": "Projects"
+		}
+	],
+
+	"projects": [
+		{
+			"id": 1,
+			"title": "",
+			"subtitle": "",
+			"span": "",
+			"image": ""
+		}
 	]
 }

@@ -6,6 +6,7 @@ import './Home.css';
 
 export function Home() {
 	const [homeData, setHomeData] = useState();
+	
 	useEffect(() => {
 		async function fetchData() {
 			try {
@@ -29,9 +30,10 @@ export function Home() {
 				</div>
 
 				<div className='projects-button-container'>
-					<NavLink className='projects-button'>Projects &gt; </NavLink>
+					<NavLink to='/Portfolio/projects' className='projects-button'>Projects &gt; </NavLink>
 				</div>
 			</div>
+
 			<Socials />
 		</div>
 	);

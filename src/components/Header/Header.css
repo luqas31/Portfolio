@@ -6,21 +6,21 @@
 nav {
 	display: flex;
 	width: 550px;
-	height: 4rem;
+	height: 6vh;
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
-    font-weight: 800;
+	font-weight: 800;
 	color: #222222;
 }
 
 li {
-    list-style: none;
-    font-weight: 300;
+	list-style: none;
+	font-weight: 300;
 	color: #222222;
 }
 
-.nav-home {
+.nav {
 	color: #222222;
 	font-weight: 300;
 }

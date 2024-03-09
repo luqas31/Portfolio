@@ -6,8 +6,12 @@ function Header() {
 		<div>
 			<div className='header-container'>
 				<nav>
-					<Link to='/Portfolio/' className='nav-home'>Home</Link>
-					<Link to="projects">Projects</Link>
+					<Link to='/Portfolio/' className='nav'>
+						Home
+					</Link>
+					<Link to='projects' className='nav'>
+						Projects
+					</Link>
 					<li>About me</li>
 					<li>Contact me</li>
 				</nav>
