@@ -23,11 +23,13 @@ export function Project() {
 				<div className='project-img'>
 					<img src={projectData?.image} alt={projectData?.alt} />
 				</div>
-				<div className='project-title'>
-					<h1>{projectData?.title}</h1>
-				</div>
-				<div className='project-subtitle'>
-					<p>{projectData?.subtitle}</p>
+				<div className='overlay'>
+					<div className='project-title'>
+						<h1>{projectData?.title}</h1>
+					</div>
+					<div className='project-subtitle'>
+						<p>{projectData?.subtitle}</p>
+					</div>
 				</div>
 			</a>
 		</div>

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { getData } from '../../services/api';
 import './ProjectsPage.css';
 import { ProjectList } from '../../components/ProjectList';
+import Socials from '../../components/Socials';
 
 export function Projects() {
 	const [projectsPage, setProjectsPage] = useState();
@@ -29,6 +30,8 @@ export function Projects() {
 			<div className='project-list'>
 				<ProjectList />
 			</div>
+
+			<Socials className='socials' />
 		</div>
 	);
 }
