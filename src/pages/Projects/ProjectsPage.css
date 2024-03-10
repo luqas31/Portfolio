@@ -15,6 +15,12 @@
 	font-size: 2.5rem;
 }
 
+.project-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
 @keyframes shadow-pop-tr {
 	0% {
 		box-shadow: 0 0 #3e3e3e, 0 0 #ffffff, 0 0 #3e3e3e, 0 0 #ffffff, 0 0 #3e3e3e, 0 0 #ffffff, 0 0 #3e3e3e, 0 0 #ffffff;

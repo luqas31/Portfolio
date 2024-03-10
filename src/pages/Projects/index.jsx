@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getData } from '../../services/api';
-import './Projects.css';
+import './ProjectsPage.css';
+import { ProjectList } from '../../components/ProjectList';
 
 export function Projects() {
 	const [projectsPage, setProjectsPage] = useState();
@@ -24,7 +25,9 @@ export function Projects() {
 						{projectsPage?.title} <span className='span-projects'>{projectsPage?.span}...</span>
 					</h1>
 				</div>
-				<div className='projects-list'></div>
+			</div>
+			<div className='project-list'>
+				<ProjectList />
 			</div>
 		</div>
 	);

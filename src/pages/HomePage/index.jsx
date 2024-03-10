@@ -35,6 +35,7 @@ export function Home() {
 			</div>
 
 			<Socials />
+
 		</div>
 	);
 }

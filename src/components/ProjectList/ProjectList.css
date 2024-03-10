@@ -1,0 +1,17 @@
+.project-list {
+	position: relative;
+	top: 10;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.project-position {
+	display: flex;
+	justify-content: space-around;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5rem;
+	width: 100%;
+}

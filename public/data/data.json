@@ -30,19 +30,41 @@
 			"id": 1,
 			"title": "Calculator",
 			"subtitle": "Used HTML, CSS and Javascript",
-			"image": ""
+			"image": "https://play-lh.googleusercontent.com/BNCrySCJEAkMFRUpJHejb0MJg3DjLOkTnfJ3NDX2gyVaMAEHlU9zUsFsQd4-QARf1lo",
+			"alt": "Calculator made with HTML, CSS and Javascript",
+			"url": "https://github.com/luqas31/Calculator"
 		},
 		{
 			"id": 2,
-			"title": "Calculator",
+			"title": "Portfolio",
 			"subtitle": "Used HTML, CSS and Javascript",
-			"image": ""
+			"image": "https://play-lh.googleusercontent.com/8KdZf1JwR5z2tLXKZf6P7Xc0Zb9pZfX6y4b3uV0jZKxhXZpXKZfPZf9hVwVj7oQ",
+			"alt": "Portfolio made with HTML, CSS and Javascript"
 		},
 		{
-			"id": 3,
+			"id": 1,
 			"title": "Calculator",
 			"subtitle": "Used HTML, CSS and Javascript",
-			"image": ""
+			"image": "https://play-lh.googleusercontent.com/BNCrySCJEAkMFRUpJHejb0MJg3DjLOkTnfJ3NDX2gyVaMAEHlU9zUsFsQd4-QARf1lo",
+			"alt": "Calculator made with HTML, CSS and Javascript"
+		}
+	],
+
+	"aboutMe": [
+		{
+			"id": 1,
+			"title": "More About Me",
+			"text": "Greetings, I'm Lucas Souza, originally from Brazil and a graduate in Psychology from the Instituto Superior Miguel Torga in Coimbra.\n\nMy journey in the digital realm began in childhood, fueled by a fascination with technology and computers. At the age of 10, I embarked on a basic computer course, delving into tools like Scratch, NVU, and Movie Maker, marking the commencement of my foray into this domain.\n\nThe discovery of web development brought a renewed purpose to my career. The thrill of crafting something meaningful and witnessing its impact on the screen became an unwavering passion.\n\nDespite my background in Psychology, I maintain a constant determination to deepen my knowledge. I aspire to pursue a higher degree in Software Engineering in the future, a field that deeply captivates me.\n\nThroughout my professional journey, I've gained valuable experiences, including my stint at Zara in the Forum Coimbra, where I honed communication and teamwork skills. Presently, I'm part of the team at Vans on Rua Augusta in Lisbon, relishing interactions with an international clientele, thanks to my proficiency in English.\n\nFeel free to explore my portfolio for a more in-depth view of my journey. I am always open to new challenges and opportunities that inspire continued professional growth. Thank you for visiting! 🚀"
+		}
+	],
+
+	"contactMe": [
+		{
+			"id": 1,
+			"title": "Contact Me",
+			"subtitle": "Feel free to contact me anytime!",
+			"phoneNumber": "tel:+351 926 983 072",
+			"email": "lucasplss@outlook.com"
 		}
 	]
 }
