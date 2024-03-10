@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	height: 22vh;
+	height: 17vh;
 }
 
 .span-projects {
@@ -12,6 +12,7 @@
 
 .projects-title {
 	font-weight: 200;
+	font-size: 2.5rem;
 }
 
 @keyframes shadow-pop-tr {

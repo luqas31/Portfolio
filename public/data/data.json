@@ -28,9 +28,20 @@
 	"projects": [
 		{
 			"id": 1,
-			"title": "",
-			"subtitle": "",
-			"span": "",
+			"title": "Calculator",
+			"subtitle": "Used HTML, CSS and Javascript",
+			"image": ""
+		},
+		{
+			"id": 2,
+			"title": "Calculator",
+			"subtitle": "Used HTML, CSS and Javascript",
+			"image": ""
+		},
+		{
+			"id": 3,
+			"title": "Calculator",
+			"subtitle": "Used HTML, CSS and Javascript",
 			"image": ""
 		}
 	]
