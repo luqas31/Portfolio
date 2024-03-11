@@ -36,17 +36,19 @@
 		},
 		{
 			"id": 2,
-			"title": "Portfolio",
-			"subtitle": "Used HTML, CSS and Javascript",
-			"image": "https://play-lh.googleusercontent.com/8KdZf1JwR5z2tLXKZf6P7Xc0Zb9pZfX6y4b3uV0jZKxhXZpXKZfPZf9hVwVj7oQ",
-			"alt": "Portfolio made with HTML, CSS and Javascript"
-		},
-		{
-			"id": 1,
-			"title": "Calculator",
+			"title": "Lucas",
 			"subtitle": "Used HTML, CSS and Javascript",
 			"image": "https://play-lh.googleusercontent.com/BNCrySCJEAkMFRUpJHejb0MJg3DjLOkTnfJ3NDX2gyVaMAEHlU9zUsFsQd4-QARf1lo",
-			"alt": "Calculator made with HTML, CSS and Javascript"
+			"alt": "Calculator made with HTML, CSS and Javascript",
+			"url": "https://github.com/luqas31/Calculator"
+		},
+		{
+			"id": 3,
+			"title": "Souza",
+			"subtitle": "Used HTML, CSS and Javascript",
+			"image": "https://play-lh.googleusercontent.com/BNCrySCJEAkMFRUpJHejb0MJg3DjLOkTnfJ3NDX2gyVaMAEHlU9zUsFsQd4-QARf1lo",
+			"alt": "Calculator made with HTML, CSS and Javascript",
+			"url": "https://github.com/luqas31/Calculator"
 		}
 	],
 

@@ -4,6 +4,7 @@ import App from './App';
 import { Home } from './pages/HomePage/index';
 import { ErrorPage } from './pages/ErrorPage/index';
 import { Projects } from './pages/Projects/index';
+import { AboutMePage } from './pages/AboutMePage/index';
 
 export const router = createBrowserRouter([
 	{
@@ -15,9 +16,14 @@ export const router = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: "projects",
-				element: <Projects/>,
+				path: 'projects',
+				element: <Projects />,
 			},
+			{
+				path: 'aboutme',
+				element: <AboutMePage />,
+			},
+
 			{
 				path: '*',
 				element: <ErrorPage />,

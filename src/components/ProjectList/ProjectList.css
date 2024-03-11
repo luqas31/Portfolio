@@ -1,13 +1,11 @@
 .project-list {
-	position: relative;
-	top: 10;
-	height: 70vh;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	height: 82vh;
 }
 
 .project-position {
 	display: flex;
-	gap: 5rem;
+	align-items: center;
 }
