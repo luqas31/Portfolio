@@ -13,7 +13,7 @@ function Header() {
 						Projects
 					</Link>
 					<Link to='aboutme' className='nav'>About me</Link>
-					<li>Contact me</li>
+					<Link to='contact' className='nav'>Contact me</Link>
 				</nav>
 			</div>
 		</div>
