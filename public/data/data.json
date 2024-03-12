@@ -16,14 +16,6 @@
 		}
 	],
 
-	"ifNoProjects": [
-		{
-			"id": 1,
-			"title": "No projects yet",
-			"subtitle": "Looking forward to adding some!",
-			"span": "Projects"
-		}
-	],
 
 	"projects": [
 		{
@@ -36,19 +28,19 @@
 		},
 		{
 			"id": 2,
-			"title": "Lucas",
-			"subtitle": "Used HTML, CSS and Javascript",
-			"image": "https://play-lh.googleusercontent.com/BNCrySCJEAkMFRUpJHejb0MJg3DjLOkTnfJ3NDX2gyVaMAEHlU9zUsFsQd4-QARf1lo",
-			"alt": "Calculator made with HTML, CSS and Javascript",
-			"url": "https://github.com/luqas31/Calculator"
+			"title": "Under Construction",
+			"subtitle": "Please, come back later",
+			"image": "https://upload.wikimedia.org/wikipedia/en/2/23/System_Preferences_icon.png",
+			"alt": "Under Construction",
+			"url": "https://github.com/luqas31"
 		},
 		{
 			"id": 3,
-			"title": "Souza",
-			"subtitle": "Used HTML, CSS and Javascript",
-			"image": "https://play-lh.googleusercontent.com/BNCrySCJEAkMFRUpJHejb0MJg3DjLOkTnfJ3NDX2gyVaMAEHlU9zUsFsQd4-QARf1lo",
-			"alt": "Calculator made with HTML, CSS and Javascript",
-			"url": "https://github.com/luqas31/Calculator"
+			"title": "Under Construction",
+			"subtitle": "Please, come back later",
+			"image": "https://upload.wikimedia.org/wikipedia/en/2/23/System_Preferences_icon.png",
+			"alt": "Under Construction",
+			"url": "https://github.com/luqas31"
 		}
 	],
 

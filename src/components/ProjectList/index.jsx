@@ -21,9 +21,8 @@ export const ProjectList = () => {
 	return (
 		<div className='project-list'>
 			<div className='project-position'>
-
-				{projectsData.map((project, index) => (
-					<Project key={index} project={project} className='project' />
+				{projectsData.map(project => (
+					<Project key={project.id} project={project} className='project' />
 				))}
 			</div>
 		</div>
