@@ -12,7 +12,7 @@ export function Home() {
 		async function fetchData() {
 			try {
 				const data = await getData();
-				// Atualize os dados da home quando estiverem disponíveis
+
 				dispatch({ type: 'SET_HOME_DATA', payload: data.home[0] });
 			} catch (error) {
 				console.log('ERROR ::', error.message);
