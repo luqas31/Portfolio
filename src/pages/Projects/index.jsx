@@ -5,7 +5,6 @@ import { ProjectList } from '../../components/ProjectList';
 import { reducer } from '../../reducer';
 
 export function Projects() {
-	// Use useReducer para gerenciar o estado dos dados
 	const [projectsPage, dispatch] = useReducer(reducer, null);
 
 	useEffect(() => {

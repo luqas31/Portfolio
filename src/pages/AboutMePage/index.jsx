@@ -10,7 +10,7 @@ export const AboutMePage = () => {
 		async function fetchData() {
 			try {
 				const data = await getData();
-				// Atualize os dados do about me quando eles estiverem disponíveis
+
 				dispatch({ type: 'SET_ABOUT_ME_DATA', payload: data.aboutMe[0] });
 			} catch (error) {
 				console.log('ERROR ::', error.message);
