@@ -24,3 +24,11 @@ li {
 	color: #222222;
 	font-weight: 300;
 }
+
+#dark .nav {
+	color: #f5f5f5;
+}
+
+#dark li {
+	color: #f5f5f5;
+}

@@ -1,17 +1,31 @@
 import { Outlet } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
+import { ThemeProvider } from './contexts/AppContext';
+import { useState, useEffect } from 'react';
 
 function App() {
+	const initialTheme = localStorage.getItem('theme') || 'light';
+	const [theme, setTheme] = useState(initialTheme);
+
+	useEffect(() => {
+		localStorage.setItem('theme', theme);
+	}, [theme]);
+
+	const toggleTheme = () => {
+		setTheme(curr => (curr === 'light' ? 'dark' : 'light'));
+	};
+
 	return (
-		<div className='app'>
-			<div className="header-component">
-			<Header /></div>
-			<div className='outlet'>
+		<ThemeProvider value={{ theme, toggleTheme }}>
+			<div className='app' id={theme}>
+				<Header />
+				<button className='change-theme-button' onClick={toggleTheme}>
+					CHANGE THEME
+				</button>
 				<Outlet />
 			</div>
-
-		</div>
+		</ThemeProvider>
 	);
 }
 

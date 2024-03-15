@@ -45,3 +45,17 @@ h2 {
 .home-container h2 span {
 	animation: blink 1s step-end infinite;
 }
+
+#dark h1 {
+	color: #f5f5f5;
+}
+
+#dark h2 {
+	color: #f5f5f5;
+}
+
+#dark .projects-button {
+	background-color: #f5f5f5;
+	color: #222222;
+	box-shadow: #161616 0px 8px 24px;
+}
